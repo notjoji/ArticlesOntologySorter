@@ -1,0 +1,403 @@
+{
+    "last_id": "69",
+    "namespaces": {
+        "default": "http://knova.ru/user/1607947432456",
+        "ontolis-avis": "http://knova.ru/ontolis-avis",
+        "owl": "http://www.w3.org/2002/07/owl",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema",
+        "xsd": "http://www.w3.org/2001/XMLSchema"
+    },
+    "nodes": [
+        {
+            "attributes": {
+            },
+            "id": "1",
+            "name": "pattern recognition",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 1053,
+            "position_y": 499
+        },
+        {
+            "attributes": {
+            },
+            "id": "2",
+            "name": "ecg",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 204,
+            "position_y": 688
+        },
+        {
+            "attributes": {
+            },
+            "id": "3",
+            "name": "electrocardiography",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 287,
+            "position_y": 585
+        },
+        {
+            "attributes": {
+            },
+            "id": "5",
+            "name": "registration",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 211,
+            "position_y": 420
+        },
+        {
+            "attributes": {
+            },
+            "id": "10",
+            "name": "cnn",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 713,
+            "position_y": 434
+        },
+        {
+            "attributes": {
+            },
+            "id": "11",
+            "name": "convolutional",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 538,
+            "position_y": 479
+        },
+        {
+            "attributes": {
+            },
+            "id": "12",
+            "name": "neural network",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 382,
+            "position_y": 423
+        },
+        {
+            "attributes": {
+            },
+            "id": "14",
+            "name": "machine learning",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 909,
+            "position_y": 268
+        },
+        {
+            "attributes": {
+            },
+            "id": "15",
+            "name": "image analysis",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 1022,
+            "position_y": 608
+        },
+        {
+            "attributes": {
+            },
+            "id": "17",
+            "name": "diagnosis",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 691,
+            "position_y": 645
+        },
+        {
+            "attributes": {
+            },
+            "id": "19",
+            "name": "artificial intelligence",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 952,
+            "position_y": 200
+        },
+        {
+            "attributes": {
+            },
+            "id": "20",
+            "name": "ai",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 1106,
+            "position_y": 270
+        },
+        {
+            "attributes": {
+            },
+            "id": "25",
+            "name": "ml",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 886,
+            "position_y": 366
+        },
+        {
+            "attributes": {
+            },
+            "id": "31",
+            "name": "classification",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 633,
+            "position_y": 572
+        },
+        {
+            "attributes": {
+            },
+            "id": "34",
+            "name": "signal",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 430,
+            "position_y": 700
+        },
+        {
+            "attributes": {
+            },
+            "id": "39",
+            "name": "algorithm",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 387,
+            "position_y": 231
+        },
+        {
+            "attributes": {
+            },
+            "id": "42",
+            "name": "disease",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 598,
+            "position_y": 716
+        },
+        {
+            "attributes": {
+            },
+            "id": "43",
+            "name": "myocardial infarction",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 619,
+            "position_y": 784
+        },
+        {
+            "attributes": {
+            },
+            "id": "45",
+            "name": "deep learning",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 752,
+            "position_y": 302
+        },
+        {
+            "attributes": {
+            },
+            "id": "56",
+            "name": "task",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 1022,
+            "position_y": 390
+        },
+        {
+            "attributes": {
+            },
+            "id": "61",
+            "name": "image segmentation",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "position_x": 597,
+            "position_y": 371
+        }
+    ],
+    "relations": [
+        {
+            "attributes": {
+            },
+            "destination_node_id": "5",
+            "id": "7",
+            "name": "is_a",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "3"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "15",
+            "id": "16",
+            "name": "part_of",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "1"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "19",
+            "id": "21",
+            "name": "same_as",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "20"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "3",
+            "id": "22",
+            "name": "same_as",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "2"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "11",
+            "id": "23",
+            "name": "same_as",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "10"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "19",
+            "id": "24",
+            "name": "part_of",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "14"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "14",
+            "id": "26",
+            "name": "same_as",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "25"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "12",
+            "id": "29",
+            "name": "is_a",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "11"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "3",
+            "id": "35",
+            "name": "part_of",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "34"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "14",
+            "id": "46",
+            "name": "part_of",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "45"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "17",
+            "id": "47",
+            "name": "part_of",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "42"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "42",
+            "id": "50",
+            "name": "is_a",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "43"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "31",
+            "id": "54",
+            "name": "part_of",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "17"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "31",
+            "id": "55",
+            "name": "use_for",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "34"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "14",
+            "id": "58",
+            "name": "part_of",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "56"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "56",
+            "id": "59",
+            "name": "is_a",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "1"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "39",
+            "id": "64",
+            "name": "is_a",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "61"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "39",
+            "id": "65",
+            "name": "is_a",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "12"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "56",
+            "id": "66",
+            "name": "is_a",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "31"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "39",
+            "id": "67",
+            "name": "is_a",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "5"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "61",
+            "id": "68",
+            "name": "use_for",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "11"
+        },
+        {
+            "attributes": {
+            },
+            "destination_node_id": "1",
+            "id": "69",
+            "name": "use_for",
+            "namespace": "http://knova.ru/user/1607947432456",
+            "source_node_id": "11"
+        }
+    ],
+    "visualize_ont_path": ""
+}
