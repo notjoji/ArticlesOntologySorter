@@ -197,6 +197,7 @@ namespace ArticlesOntologySorter
 
         private void arrangeArticlesBtn_Click(object sender, EventArgs e)
         {
+            arrangeArticlesBtn.Enabled = false;
             int n = ontology.nodes.Count;
             int an = articles.Count;
             if (an == 0 || n == 0 || ontology.relations.Count == 0)
@@ -367,6 +368,7 @@ namespace ArticlesOntologySorter
             updateDataGridView(true);
             int conn_ontos = Convert.ToInt32(connOntosCombo.SelectedItem);
             makeMostValuableOntologies(conn_ontos, nodeIds, connSentences, articleTitles);
+            arrangeArticlesBtn.Enabled = true;
         }
 
         private void makeMostValuableOntologies(int n, List<string>[] nodeIds, List<string>[] connSentences, string[] articleTitles)
@@ -384,6 +386,12 @@ namespace ArticlesOntologySorter
             JsonSerializer serializer = new JsonSerializer();
             for (int i = 0; i < n; i++)
             {
+                string title = articleTitles[i].Trim();
+                title = Regex.Replace(title, @"[\/:*?<>|+]", "");
+                if (title.Length > 155)
+                {
+                    title = title.Substring(0, 155) + " (more)";
+                }
                 Onto copy = new Onto();
                 copy.last_id = ontology.last_id;
                 copy.namespaces = ontology.namespaces;
@@ -397,7 +405,7 @@ namespace ArticlesOntologySorter
                 ontologyRelations.RemoveAll(x => !ontologyNodesIds.Contains(x.destination_node_id) || !ontologyNodesIds.Contains(x.source_node_id));
                 copy.nodes = ontologyNodes;
                 copy.relations = ontologyRelations;
-                string ontology_filename = ontology_path + @"\" + articleTitles[i] + ".ont";
+                string ontology_filename = ontology_path + @"\" + title + ".ont";
                 using (StreamWriter sw = new StreamWriter(ontology_filename))
                 {
                     using (JsonWriter writer = new JsonTextWriter(sw))
@@ -405,7 +413,7 @@ namespace ArticlesOntologySorter
                         serializer.Serialize(writer, copy);
                     }
                 }
-                string texts_filename = texts_path + @"\" + articleTitles[i] + ".txt";
+                string texts_filename = texts_path + @"\" + title + ".txt";
                 using (StreamWriter sw = new StreamWriter(texts_filename, false, System.Text.Encoding.UTF8))
                 {
                     foreach (string connSentence in connSentences[i])
